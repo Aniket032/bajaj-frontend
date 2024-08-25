@@ -2,7 +2,7 @@ import Head from "next/head";
 import "./globals.css";
 
 export const metadata = {
-  title: "ABCD123", // Replace with your actual roll number
+  title: "21BCI033", // Replace with your actual roll number
 };
 
 export default function RootLayout({ children }) {
