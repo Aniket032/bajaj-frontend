@@ -31,7 +31,7 @@ export default function Home() {
     const parsedInput = JSON.parse(jsonInput);
 
     const res = await fetch(
-      "https://backend-bajaj.netlify.app/.netlify/functions/api",
+      "https://backend-bajaj.netlify.app/.netlify/functions/api/bfhl",
       {
         method: "POST",
         headers: {
